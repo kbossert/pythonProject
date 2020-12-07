@@ -3,7 +3,7 @@ import csv
 def finddups():
 
     try:
-        with open('USArchives.csv', newline='', encoding="utf8") as csvfile:
+        with open('RepoData.csv', newline='', encoding="utf8") as csvfile:
             name = ""
             count = 0
 
@@ -21,7 +21,7 @@ def finddups():
 def findunique():
 
     try:
-        with open('USArchives.csv', newline='', encoding="utf8") as csvfile:
+        with open('RepoData.csv', newline='', encoding="utf8") as csvfile:
             name = ""
             count = 0
 
@@ -39,7 +39,7 @@ def findunique():
 def findauthorized():
 
     try:
-        with open('USArchives.csv', newline='', encoding="utf8") as csvfile:
+        with open('RepoData.csv', newline='', encoding="utf8") as csvfile:
             count = 0
 
             reader = csv.DictReader(csvfile)
