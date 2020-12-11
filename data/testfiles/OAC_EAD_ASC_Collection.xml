@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<ead>
+<eadheader langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+<eadid xmlns:cdlpath="http://www.cdlib.org/path/" countrycode="us" identifier="ark:/13030/c80003fk" mainagencycode="CLAc" publicid="PUBLIC &quot;-//Academy of Motion Picture Arts and Sciences: :Margaret Herrick Library: :Special Collections//TEXT (US: :CLAc: : Collection 374: : American Society of Cinematographers collection ) //EN" cdlpath:parent="ark:/13030/c8ff3t03" cdlpath:grandparent="ark:/13030/c879460s">ASC_Collection.xml</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>American Society of Cinematographers collection</titleproper>
+<titleproper type="filing">American Society of Cinematographers collection</titleproper>
+<author>Special Collections</author>
+</titlestmt>
+<publicationstmt>
+<publisher>Margaret Herrick Library</publisher>
+<date>&#xA9; 2013</date>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Machine-readable finding aid derived from Inmagic. Date of source: <date> June 26, 2013
+</date></creation>
+<langusage>Description is in <language langcode="eng" scriptcode="latn">English.</language></langusage>
+<descrules>Finding aid prepared using <title>Describing Archives: a Content Standard</title></descrules>
+</profiledesc>
+</eadheader>
+<archdesc level="collection" id="archdesc-1.2">
+<did id="did-1.2.1">
+
+<head>Descriptive Summary</head>
+<unittitle label="Title">American Society of Cinematographers collection</unittitle>
+<unitdate type="inclusive" normal="1917/1998">1917-1998</unitdate>
+
+<unitid countrycode="us" repositorycode="CLAc" label="Collection number">374</unitid>
+<origination label="Creator">
+<corpname rules="aacr2">American Society of Cinematographers, Inc.</corpname>
+</origination>
+<physdesc label="Extent">
+<extent>13 linear feet of papers.</extent>
+<extent>42.5 linear feet of photographs.</extent>
+</physdesc>
+<repository label="Repository">
+<corpname>Margaret Herrick Library. Academy of Motion Picture Arts and Sciences.</corpname>
+</repository>
+
+<dao href="http://digitalcollections.oscars.org/cdm/landingpage/collection/p15759coll15" role="http://oac.cdlib.org/arcrole/link/search">
+<daodesc>
+<p>Selected digitized items from this collection:</p>
+</daodesc>
+</dao>
+
+
+<langmaterial label="Languages">
+<language langcode="eng">English</language>
+</langmaterial>
+
+</did>
+<descgrp id="descgrp-1.2.2">
+<head>Important Information for Users of the Collection</head>
+
+<accessrestrict>
+<head>Access</head>
+<p>Available by appointment only.</p>
+</accessrestrict>
+
+<userestrict>
+<head>Publication rights</head>
+<p>Property rights to the physical object belong to the Margaret Herrick Library. Researchers are
+responsible for obtaining all necessary rights, licenses, or permissions from the appropriate companies
+or individuals before quoting from or publishing materials obtained from the library.</p>
+
+</userestrict>
+
+<prefercite>
+<head>Preferred Citation</head>
+<p>American Society of Cinematographers collection, Margaret Herrick Library, Academy of Motion Picture
+Arts and Sciences.</p>
+</prefercite>
+<acqinfo>
+<head>Acquisition Information</head>
+<p>Gift of the ASC Holding Corporation, 1996</p>
+</acqinfo>
+</descgrp>
+<bioghist id="bioghist-1.2.3">
+<head>Biography</head>
+<p>The American Society of Cinematographers (ASC), created in 1919, is an educational, social, and
+professional organization based in Hollywood, California, with an invitation only membership of motion
+picture directors of photography. The ASC has published "American Cinematographer" magazine since
+1920.</p>
+</bioghist>
+<scopecontent id="scopecontent-1.2.4">
+<head>Collection Scope and Content Summary</head>
+<p>The American Society of Cinematographers collection spans the years 1917-1998 and encompasses 55.5
+linear feet. The collection consists of membership files, minutes of board meetings, awards program
+books, magazines, brochures, press releases, clippings, correspondence, interview transcripts,
+scrapbooks, tape recordings, and photographs. The photographs consist largely of material submitted to
+and/or published in "American Cinematographer" and photographs from the membership files.</p>
+</scopecontent>
+<arrangement id="arrangement-1.2.5">
+<p>Arranged in the following series: 1. Membership; 2. Subject files, subseries A-C as follows: A.
+Administrative; B. American Cinematographer. C. ASC documents; 3. Oversize; 4. Scrapbooks; 5.
+Photographs</p>
+</arrangement>
+ <controlaccess id="controlaccess-1.2.6">
+ <head>Indexing Terms</head>
+ <corpname>American Society of Cinematographers, Inc.</corpname>
+ <occupation rules="local">organization records</occupation>
+ </controlaccess>
+</archdesc>
+</ead>

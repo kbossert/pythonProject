@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ead>
+     <eadheader langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+         <eadid xmlns:cdlpath="http://www.cdlib.org/path/" countrycode="us" identifier="ark:/13030/kt9s2042mx" mainagencycode="cON" publicid="Consult library" cdlpath:parent="ark:/13030/kt767nf4b2" >Consult library</eadid>
+         <filedesc id="filedesc">
+             <titlestmt>
+                 <titleproper>Armstrong Nurseries Collection</titleproper>
+                 <titleproper type="filing">Armstrong Nurseries Collection</titleproper>
+                 <author>Finding aid created by Ontario City Library, Robert E. Ellingwood Model Colony History Room staff using RecordEXPRESS</author>
+             </titlestmt>
+             <publicationstmt>
+                 <publisher>Ontario City Library, Robert E. Ellingwood Model Colony History Room</publisher>
+                 <address>
+                     <addressline>215 East &quot;C&quot; Street</addressline>
+                     
+                     <addressline>Ontario, California 91764-4111</addressline>
+                     
+                     <addressline>(909) 395-2206</addressline>
+                     
+                     
+                     <addressline>localhistory@ontarioca.gov</addressline>
+                     
+                     
+                     <addressline>https://www.ontarioca.gov/LibraryEvents</addressline>
+                     
+                 </address>
+                 <date>2020</date>
+             </publicationstmt>
+         </filedesc>
+     </eadheader>
+     <archdesc level="collection" id="archdesc">
+         <did id="did">
+             <head>Descriptive Summary</head>
+             <unittitle label="Title">Armstrong Nurseries Collection</unittitle>
+             <unitdate normal="1889/1984" label="Dates">1889-1984</unitdate>
+             <unitid label="Collection Number" repositorycode="cON" countrycode="US">Consult library</unitid>
+             <origination label="Creator/Collector">
+                 
+                 <persname>Armstrong, John Samuel, 1865-1965</persname>
+                 
+                 <persname>Armstrong, John Awdry</persname>
+                 
+                 <persname>Armstrong, John S., Jr.</persname>
+                 
+                 <persname>Armstrong, David L.</persname>
+                 
+                 <persname>Christensen, Jack</persname>
+                 
+                 <persname>Lammerts, Walter</persname>
+                 
+                 
+                 
+                 <corpname>Armstrong Nurseries (Ontario, Calif.)</corpname>
+                 
+             </origination>
+             <physdesc label="Extent"><extent>66 containers, approximately 60 linear feet.</extent>
+             </physdesc>
+             
+             <repository label="Repository">
+                 <corpname>Ontario City Library, Robert E. Ellingwood Model Colony History Room</corpname>
+                 <address>
+                     <addressline>Ontario, California 91764-4111</addressline>
+                 </address>
+             </repository>
+             <abstract label="Abstract">The collection is a multi-media archive of the Armstrong Nurseries, Inc., with records dating from 1889 to 1984. Holdings include company records and marketing materials, approximately 14,000 photographs and negatives, motion picture films, sound recordings, and approximately 40 rolled sheets of maps and plans.  </abstract>
+             <langmaterial><language langcode="eng"/></langmaterial>
+        </did>
+        <accessrestrict id="accessrestrict"><head>Access</head><p>Collection is open for research during the operating hours of the Robert E. Ellingwood Model Colony History Room, or by appointment.</p></accessrestrict>
+        <userestrict id="userestrict"><head>Publication Rights</head><p>Consult library</p></userestrict>
+        <prefercite id="prefercite"><head>Preferred Citation</head><p>Armstrong Nurseries Collection.  Ontario City Library, Robert E. Ellingwood Model Colony History Room</p></prefercite>
+        <acqinfo id="acqinfo"><head>Acquisition Information</head><p>The holdings were donated by Armstrong Nurseries (via Vice President for Research Jack Christensen), Mr. Jack Armstrong (via the Museum of History and Art, Ontario) and by Mr. Herbert Swim in 1985.</p></acqinfo>
+        
+        <bioghist id="bioghist"><head>Biography/Administrative History</head><p>John S. Armstrong was born on October 11, 1865 in Brantford, Canada. After contracting tuberculosis, his doctor recommended moving to a warmer climate. He decided to head west and arrived in Upland on March 3, 1889. He found he liked working outdoors and learned the nursery business during his tenure at the Horsley and Eaton Nursery. He soon parted ways with Messrs. Horsley and Eaton, starting his own nursery and recovering his health in the process. He also bought land and began cultivating grapes, fruit and citrus trees. 
+
+In 1898, Armstrong bought three lots on D Street and Euclid Avenue from Andrew Chaffey for $112 each. This land became the original Armstrong Nursery. He started a mail order catalog of roses and fruit trees in 1902. He continued purchasing acreage and selling plants, riding the ever-expanding demand for ornamental trees and shrubbery that began in the early 1900s. 
+
+Starting in the 1940s, his nursery pioneered the development of new varieties of roses, among them the Charlotte Armstrong, named for his first wife who died in 1948. More than two million of this variety have been sold and it is the official flower of Ontario, California. Though John S. Armstrong died in 1965, his company continued as a family-owned business until the 1980s when the family sold the nursery. The nursery business continues as Armstrong Garden Centers, one of the largest independent retail nurseries in the western United States.</p></bioghist>
+        
+        <scopecontent id="scopecontent"><head>Scope and Content of Collection</head><p>The collection consists of 60 linear feet of documents which include John S. Armstrong&#39;s memoirs, the Armstrong Nursery journals, ledgers, harvest books, diaries, maps and catalogs. There are also approximately 4,000 photographs, 10,000 negatives, audio tapes, 16mm films and photographs of discontinued roses.  The diaries contain the notes of hybridists Walter Lammerts, Herbert C. Swim, David L. Armstrong, and Jack C. Christensen written during their tenure in Armstrong&#39;s Research Department. Dr. Lammerts&#39; notes on the hybridization of the Charlotte Armstrong Rose (Ontario&#39;s official flower) and Mr. Swim&#39;s notes on his prize-winning roses are included. These diaries date from 1938-1970.  </p></scopecontent>
+        <controlaccess id="controlaccess">
+            <head>Indexing Terms</head>
+            
+            
+                <persname role="subject">Armstrong, John Samuel, 1865-1965</persname>
+            
+            
+            
+                <corpname role="subject">Armstrong Nursery--History</corpname>
+            
+            
+                <geogname role="subject">Ontario (Calif.)--History</geogname>
+            
+            
+            
+            
+            
+        </controlaccess>
+        
+        <otherfindaid id="otherfindaid">
+            <head>Additional collection guides</head>
+            <list>
+            
+            <item><extref href="/data/13030/mx/kt9s2042mx/files/Armstrong Nurseries Collection Finding Aid.pdf">Armstrong Nurseries Collection</extref></item>
+            
+            </list>
+        </otherfindaid>
+        
+    </archdesc>
+</ead>
