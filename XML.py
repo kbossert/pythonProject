@@ -1,4 +1,6 @@
 import lxml
+import setuptools
+import pkg_resources
 
 # root.find() will navigate down the document tree to find children
 # root.xpath() will return a matching element using an XPATH query as a sting
@@ -20,3 +22,10 @@ root = xmlObject.getroot()
 collectionName = root.find("archdesc/did/unittitle").text
 print("We are working with " + collectionName)
 print(root.find("archdesc/did/unitdate").text)
+
+# XLST transform
+# dom = ET.parse("xml_filename")
+# xslt = ET.parse("xsl_filename")
+# transform = ET.XSLT(xslt)
+# newdom = transform(dom)
+# print(ET.tostring(newdom, pretty_print=True))
