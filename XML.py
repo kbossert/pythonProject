@@ -13,11 +13,12 @@ import pkg_resources
 from lxml import etree as ET
 
 # enter a path to the XML file here
-windowsPath = "ead.xml"
+windowsPath = "data/testfiles/ead_2002_valid_dtd.xml"
 xmlObject = ET.parse(windowsPath)
 
 # root is the top-level <ead> tag
 root = xmlObject.getroot()
+print(root.text)
 
 collectionName = root.find("archdesc/did/unittitle").text
 print("We are working with " + collectionName)

@@ -12,6 +12,8 @@
 # HTML (without JSON, presumedly nonstandard)
 # Standard Office Tools (Word, Excel, PowerPoint, heck maybe Notepad)
 
+import os
+import sys
 from lxml import etree
 from pkg_resources import resource_stream
 
@@ -66,14 +68,14 @@ class EADValidation():
     def validate(self, ead):
         return self.dtd.validate(ead)
 
-
 def validate():
     xml_error_count = 0
     dtd_error_count = 0
     dtd_error_file_count = 0
     # The ead3 RNG file has a validation error on an invalid attribute on the origination element
     files = ['data/testfiles/ead3_valid_rng.xml', 'data/testfiles/ead3_valid_xsd.xml', 'data/testfiles/ead_2002_valid_dtd.xml', 'data/testfiles/ead_2002_valid_xsd.xml']
-    files = ['data/testfiles/bailey.xml']
+    # files = ['data/testfiles/ead_2002_valid_dtd.xml']
+    files = ['data/testfiles/x.xml']
 
     for filepath in files:
         # Check for well-formedness by attempting to parse the file
@@ -82,6 +84,7 @@ def validate():
             with open(filepath) as fh:
                 try:
                     ead = etree.parse(fh)
+
                 except etree.XMLSyntaxError as e:
                     print("Not well-formed XML: %s", e)
                     xml_error_count += 1
@@ -130,5 +133,30 @@ def validate():
     print(xml_error_count + dtd_error_file_count)
     return
 
+def walk_that_directory():
+    application_path = os.path.dirname(sys.executable)
+
+    # path = "C:\\Users\\bigslice\\PycharmProjects\\pythonProject\\data\\testfiles"
+    # for (path, dirs, files) in os.walk(path):
+    #     print(path)
+    #     for directories in dirs:
+    #         print(directories)
+    #      # walk through all the files in the directory
+    #         # check the file has a .xml extension
+    #         # http://stackoverflow.com/questions/2186525/
+    #         # for filename in fnmatch.filter(files, '*.xml'):
+    #         #     filePath = os.path.join(root, filename)
+    #     for filename in files:
+    #         print(filename)
+
+    path = "C:\\Users\\bigslice\\Documents\\book study"
+    for root, dirs, files in os.walk(path):
+        path = root.split(os.sep)
+        print(os.path.basename(root))
+        for file in files:
+            if 'pdf' in file:
+                print('---', file)
+
+# walk_that_directory()
 
 validate()
